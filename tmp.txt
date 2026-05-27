@@ -1,0 +1,208 @@
+components/Contact.tsx:            <h2 className="font-serif text-4xl md:text-5xl text-white mb-6">
+components/Contact.tsx:            <p className="text-neutral-200 font-light leading-relaxed text-lg mb-12">
+components/Contact.tsx:                <p className="text-xs uppercase tracking-widest text-neutral-400 mb-1">
+components/Contact.tsx:                <p className="text-white font-light">{t("contact.cities")}</p>
+components/Contact.tsx:                <p className="text-xs uppercase tracking-widest text-neutral-400 mb-1">
+components/Contact.tsx:                <p className="text-white font-light">
+components/Contact.tsx:              <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#0A0A0A] z-10 p-8 text-center border border-[#B0A387]/30">
+components/Contact.tsx:                    className="w-8 h-8 text-[#B0A387]"
+components/Contact.tsx:                <h3 className="font-serif text-2xl text-white mb-2">
+components/Contact.tsx:                <p className="text-neutral-400 font-light">
+components/Contact.tsx:                  <label htmlFor="name" className="text-xs uppercase tracking-widest text-neutral-400">
+components/Contact.tsx:                    className={`w-full bg-transparent border-b ${errors.name ? "border-red-500/80 bg-red-500/5 animate-shake text-red-100" : "border-white/20"} pb-2 px-2 text-white focus:outline-none focus:border-[#B0A387] transition-colors font-light`}
+components/Contact.tsx:                      className="text-red-400 text-xs mt-1 px-2"
+components/Contact.tsx:                  <label htmlFor="role" className="text-xs uppercase tracking-widest text-neutral-400">
+components/Contact.tsx:                    className="w-full bg-transparent border-b border-white/20 pb-2 text-white focus:outline-none focus:border-[#B0A387] transition-colors font-light appearance-none rounded-none"
+components/Contact.tsx:                <label htmlFor="company" className="text-xs uppercase tracking-widest text-neutral-400">
+components/Contact.tsx:                  className={`w-full bg-transparent border-b ${errors.company ? "border-red-500/80 bg-red-500/5 animate-shake text-red-100" : "border-white/20"} pb-2 px-2 text-white focus:outline-none focus:border-[#B0A387] transition-colors font-light`}
+components/Contact.tsx:                    className="text-red-400 text-xs mt-1 px-2"
+components/Contact.tsx:                <label htmlFor="email" className="text-xs uppercase tracking-widest text-neutral-400">
+components/Contact.tsx:                  className={`w-full bg-transparent border-b ${errors.email ? "border-red-500/80 bg-red-500/5 animate-shake text-red-100" : "border-white/20"} pb-2 px-2 text-white focus:outline-none focus:border-[#B0A387] transition-colors font-light`}
+components/Contact.tsx:                    className="text-red-400 text-xs mt-1 px-2"
+components/Contact.tsx:                  className="text-sm font-light text-neutral-300 cursor-pointer"
+components/Contact.tsx:                  <label htmlFor="phone" className="text-xs uppercase tracking-widest text-neutral-400">
+components/Contact.tsx:                    className={`w-full bg-transparent border-b ${errors.phone ? "border-red-500/80 bg-red-500/5 animate-shake text-red-100" : "border-white/20"} pb-2 px-2 text-white focus:outline-none focus:border-[#B0A387] transition-colors font-light`}
+components/Contact.tsx:                      className="text-red-400 text-xs mt-1 px-2"
+components/Contact.tsx:                <label className="text-xs uppercase tracking-widest text-neutral-400">
+components/Contact.tsx:                  <span className="text-neutral-600">
+components/Contact.tsx:                  className="w-full bg-transparent border-b border-white/20 pb-2 text-white focus:outline-none focus:border-[#B0A387] transition-colors font-light resize-none"
+components/Contact.tsx:                <label className="text-xs uppercase tracking-widest text-neutral-400">
+components/Contact.tsx:                  className={`w-full bg-transparent border-b ${errors.interest ? "border-red-500/80 bg-red-500/5 animate-shake text-red-100" : "border-white/20"} pb-2 px-2 text-white focus:outline-none focus:border-[#B0A387] transition-colors font-light appearance-none rounded-none`}
+components/Contact.tsx:                    className="text-red-400 text-xs mt-1 px-2"
+components/Contact.tsx:                className="w-full mt-10 px-8 py-5 bg-gradient-to-r from-[#B0A387] to-[#D4C4A1] text-black text-sm uppercase tracking-widest font-bold hover:from-white hover:to-white shadow-[0_0_30px_rgba(176,163,135,0.3)] hover:shadow-[0_0_40px_rgba(255,255,255,0.4)] transition-all duration-500 transform hover:-translate-y-1 disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none"
+components/LuxuryStandards.tsx:        <div className="mb-20 text-center max-w-3xl mx-auto">
+components/LuxuryStandards.tsx:            className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold mb-4 block"
+components/LuxuryStandards.tsx:            className="font-serif text-4xl md:text-5xl text-white mb-6 leading-tight"
+components/LuxuryStandards.tsx:            className="text-neutral-200 font-light leading-relaxed text-lg"
+components/LuxuryStandards.tsx:              <div className="w-12 h-12 rounded-full border border-white/10 bg-[#121212] flex items-center justify-center mb-8 text-[#B0A387] group-hover:scale-110 group-hover:border-[#B0A387]/30 transition-all duration-300">
+components/LuxuryStandards.tsx:              <h3 className="font-serif text-2xl text-white mb-1 group-hover:text-[#B0A387] transition-colors">{cert.name}</h3>
+components/LuxuryStandards.tsx:              {cert.full && <p className="text-[11px] uppercase tracking-widest text-[#B0A387] mb-6">{cert.full}</p>}
+components/LuxuryStandards.tsx:              <p className="text-neutral-400 font-light leading-relaxed text-[15px] flex-grow">
+components/Credibility.tsx:              className="flex flex-col items-center text-center group"
+components/Credibility.tsx:                className="w-6 h-6 text-[#B0A387] mb-3 group-hover:scale-110 transition-transform duration-300"
+components/Credibility.tsx:              <span className="font-serif text-3xl text-white font-medium mb-1">{item.number}</span>
+components/Credibility.tsx:              <span className="text-xs uppercase tracking-widest text-neutral-200 max-w-[140px] leading-relaxed">{item.label}</span>
+components/LuxuryService.tsx:            <span className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold mb-4 block">
+components/LuxuryService.tsx:            <h2 className="font-serif text-4xl md:text-5xl text-white mb-6 leading-tight">
+components/LuxuryService.tsx:            <div className="space-y-4 text-neutral-200 font-light leading-relaxed text-[15px] mb-12">
+components/LuxuryService.tsx:            <p className="font-serif text-2xl text-white mb-8 block">Programa LSP · Anual</p>
+components/LuxuryService.tsx:                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-[#B0A387] shrink-0 mt-0.5"><path d="M5 13l4 4L19 7"/></svg>
+components/LuxuryService.tsx:                  <span className="text-neutral-300 font-light text-[15px] leading-relaxed">{benefit}</span>
+components/LuxuryService.tsx:              className="px-8 py-4 bg-[#B0A387] text-black text-sm uppercase tracking-widest font-semibold hover:bg-white transition-colors duration-300 w-full focus:outline-none flex items-center justify-center gap-2 shadow-[0_0_15px_rgba(176,163,135,0.3)]"
+components/Hero.tsx:      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-20">
+components/Hero.tsx:          <span className="px-3 py-1 border border-white/20 rounded-full text-xs text-white/80 uppercase tracking-wider backdrop-blur-sm">Auditorías hoteleras</span>
+components/Hero.tsx:          <span className="px-3 py-1 border border-white/20 rounded-full text-xs text-white/80 uppercase tracking-wider backdrop-blur-sm">Asesorías por departamento</span>
+components/Hero.tsx:          <span className="px-3 py-1 border border-white/20 rounded-full text-xs text-white/80 uppercase tracking-wider backdrop-blur-sm">Formación ejecutiva</span>
+components/Hero.tsx:          <span className="px-3 py-1 border border-white/20 rounded-full text-xs text-white/80 uppercase tracking-wider backdrop-blur-sm">Sostenibilidad & lujo</span>
+components/Hero.tsx:          className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight text-white mb-6 leading-tight"
+components/Hero.tsx:          <span className="text-[#B0A387] italic font-light">a estándares internacionales</span>
+components/Hero.tsx:          className="text-lg md:text-xl text-neutral-300 mb-10 max-w-3xl mx-auto font-light leading-relaxed"
+components/Hero.tsx:            className="px-10 py-5 bg-[#B0A387] text-black text-sm uppercase tracking-widest font-bold hover:bg-white hover:scale-105 hover:shadow-[0_0_30px_rgba(176,163,135,0.4)] transition-all duration-300 w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#0A0A0A] flex items-center justify-center gap-3 shadow-[0_0_15px_rgba(176,163,135,0.2)]"
+components/Hero.tsx:            className="px-10 py-5 border border-neutral-600 text-white text-sm uppercase tracking-widest font-bold hover:border-[#B0A387] hover:bg-white/5 hover:scale-105 transition-all duration-300 w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-[#B0A387] focus:ring-offset-2 focus:ring-offset-[#0A0A0A]"
+components/SustainabilityRoute.tsx:    <Search key={0} className="w-6 h-6 text-[#B0A387]" />,
+components/SustainabilityRoute.tsx:    <PenTool key={1} className="w-6 h-6 text-[#B0A387]" />,
+components/SustainabilityRoute.tsx:    <Settings key={2} className="w-6 h-6 text-[#B0A387]" />,
+components/SustainabilityRoute.tsx:    <BarChart key={3} className="w-6 h-6 text-[#B0A387]" />,
+components/SustainabilityRoute.tsx:    <FileText key={4} className="w-6 h-6 text-[#B0A387]" />,
+components/SustainabilityRoute.tsx:    <CheckCircle key={5} className="w-6 h-6 text-[#B0A387]" />,
+components/SustainabilityRoute.tsx:        <div className="text-center mb-20">
+components/SustainabilityRoute.tsx:            className="font-serif text-4xl md:text-5xl text-white mb-6"
+components/SustainabilityRoute.tsx:            className="text-[#B0A387] text-lg font-medium tracking-wide mb-8"
+components/SustainabilityRoute.tsx:              <div className="absolute top-0 right-0 p-6 opacity-5 font-serif text-6xl font-bold text-white pointer-events-none">
+components/SustainabilityRoute.tsx:              <h3 className="text-white font-serif text-xl mb-4 relative z-10">
+components/SustainabilityRoute.tsx:              <p className="text-neutral-200 font-light leading-relaxed relative z-10">
+components/SustainabilityRoute.tsx:          <div className="text-center mb-16">
+components/SustainabilityRoute.tsx:              className="font-serif text-3xl md:text-4xl text-white mb-4"
+components/SustainabilityRoute.tsx:              className="text-neutral-400 font-light"
+components/SustainabilityRoute.tsx:                <div className="flex justify-between text-sm">
+components/SustainabilityRoute.tsx:                  <span className="text-white font-medium tracking-wide">
+components/SustainabilityRoute.tsx:                  <span className="text-[#B0A387] font-mono">
+components/Processes.tsx:        <div className="mb-20 text-center max-w-3xl mx-auto">
+components/Processes.tsx:            className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold mb-4 block"
+components/Processes.tsx:            className="font-serif text-4xl md:text-5xl text-white mb-6 leading-tight"
+components/Processes.tsx:            className="text-neutral-200 font-light leading-relaxed text-lg"
+components/Processes.tsx:              <span className="text-[10px] uppercase tracking-widest text-[#B0A387] inline-block mb-6 px-3 py-1 bg-[#B0A387]/10 border border-[#B0A387]/20 self-start">
+components/Processes.tsx:              <h3 className="text-white text-2xl font-serif mb-4 group-hover:text-[#B0A387] transition-colors">{process.title}</h3>
+components/Processes.tsx:              <p className="text-neutral-400 font-light leading-relaxed text-sm mb-8">{process.desc}</p>
+components/Processes.tsx:                    <span className="text-[#B0A387] mt-1 text-[10px]">■</span>
+components/Processes.tsx:                    <span className="text-neutral-300 text-sm font-light leading-snug">{item}</span>
+components/BackButton.tsx:      className="inline-flex items-center gap-2 text-neutral-200 hover:text-[#B0A387] transition-all mb-8 mt-4 uppercase text-xs tracking-widest font-bold group"
+components/About.tsx:      icon: <Award className="w-6 h-6 text-[#B0A387]" />,
+components/About.tsx:      icon: <TrendingUp className="w-6 h-6 text-[#B0A387]" />,
+components/About.tsx:      icon: <Globe className="w-6 h-6 text-[#B0A387]" />,
+components/About.tsx:              <span className="font-serif text-3xl text-[#B0A387] mb-1">360°</span>
+components/About.tsx:              <span className="text-[10px] uppercase tracking-widest text-neutral-200 text-center">Visión operativa<br/>integrada</span>
+components/About.tsx:              className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold mb-4 block"
+components/About.tsx:            <h2 className="font-serif text-4xl md:text-5xl text-white mb-6 leading-tight">
+components/About.tsx:            <div className="space-y-5 text-neutral-400 font-light leading-relaxed text-[15px] mb-12">
+components/About.tsx:              <p className="text-lg text-neutral-300">
+components/About.tsx:                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[#B0A387] shrink-0"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+components/About.tsx:                  <h4 className="text-white text-sm font-medium mb-2">Precisión documental</h4>
+components/About.tsx:                  <p className="text-neutral-300 text-sm font-light leading-relaxed">Cada diagnóstico está respaldado por evidencia verificable, no por percepciones subjetivas.</p>
+components/About.tsx:                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[#B0A387] shrink-0"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+components/About.tsx:                  <h4 className="text-white text-sm font-medium mb-2">Impacto en resultados</h4>
+components/About.tsx:                  <p className="text-neutral-500 text-sm font-light leading-relaxed">Medimos el avance en KPIs operativos, de reputación y de rentabilidad en cada ciclo.</p>
+components/About.tsx:                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[#B0A387] shrink-0"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0"/></svg>
+components/About.tsx:                  <h4 className="text-white text-sm font-medium mb-2">Equipo y cultura</h4>
+components/About.tsx:                  <p className="text-neutral-500 text-sm font-light leading-relaxed">Los sistemas son esenciales, pero son las personas quienes los ejecutan. Formamos equipos de alto desempeño.</p>
+components/About.tsx:                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[#B0A387] shrink-0"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+components/About.tsx:                  <h4 className="text-white text-sm font-medium mb-2">Visión sostenible</h4>
+components/About.tsx:                  <p className="text-neutral-500 text-sm font-light leading-relaxed">La rentabilidad y la sostenibilidad no se contradicen. Las integramos en cada recomendación.</p>
+components/InterimManagement.tsx:            <span className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold mb-4 block">{t("interim.subheading")}</span>
+components/InterimManagement.tsx:            <h2 className="font-serif text-4xl md:text-5xl text-white mb-6 leading-tight">
+components/InterimManagement.tsx:            <div className="space-y-4 text-neutral-200 font-light leading-relaxed text-[15px] mb-12">
+components/InterimManagement.tsx:                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[#B0A387] shrink-0">
+components/InterimManagement.tsx:                    <h4 className="text-white text-sm font-medium mb-2">{scenario.title}</h4>
+components/InterimManagement.tsx:                    {scenario.desc && <p className="text-neutral-300 text-sm font-light leading-relaxed">{scenario.desc}</p>}
+components/Services.tsx:        <div className="mb-20 text-center max-w-3xl mx-auto">
+components/Services.tsx:            className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold mb-4 block"
+components/Services.tsx:            className="font-serif text-4xl md:text-5xl text-white mb-6"
+components/Services.tsx:            className="text-neutral-200 font-light leading-relaxed text-lg"
+components/Services.tsx:              <div className="absolute top-0 right-0 p-8 opacity-5 font-serif text-8xl font-bold text-white pointer-events-none transition-transform group-hover:scale-110 duration-700 origin-top-right">
+components/Services.tsx:                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[#B0A387] drop-shadow-[0_0_8px_rgba(176,163,135,0.3)]">
+components/Services.tsx:              <h3 className="font-serif text-2xl text-white mb-4 group-hover:text-[#B0A387] transition-colors">{pillar.title}</h3>
+components/Services.tsx:              <p className="text-neutral-400 font-light leading-relaxed mb-8">{pillar.description}</p>
+components/Services.tsx:                    <span className="text-[#B0A387] mt-1 text-[10px]">■</span>
+components/Services.tsx:                    <span className="text-neutral-300 text-sm font-light leading-snug">{item}</span>
+components/MysteryGuest.tsx:              <span className="text-xs uppercase tracking-widest text-white font-medium">Confidencial</span>
+components/MysteryGuest.tsx:              <div className="font-serif text-4xl text-[#B0A387] mb-1">+900</div>
+components/MysteryGuest.tsx:              <div className="text-xs uppercase tracking-widest text-neutral-200">Parámetros auditados</div>
+components/MysteryGuest.tsx:            <span className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold mb-4 block">Mystery Guest & Quality</span>
+components/MysteryGuest.tsx:            <h2 className="font-serif text-4xl md:text-5xl text-white mb-6 leading-tight">
+components/MysteryGuest.tsx:            <div className="space-y-4 text-neutral-400 font-light leading-relaxed text-[15px] mb-10">
+components/MysteryGuest.tsx:              <p className="text-xs uppercase tracking-widest text-[#B0A387] font-medium mb-6">Qué evaluamos</p>
+components/MysteryGuest.tsx:                    <span className="text-[#B0A387] mt-1 text-[10px]">■</span>
+components/MysteryGuest.tsx:                    <span className="text-neutral-300 text-sm font-light leading-snug">{item}</span>
+components/MysteryGuest.tsx:              <p className="text-neutral-300 italic text-sm border-l border-[#B0A387]/50 pl-4">
+components/Methodology.tsx:            className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold mb-4 block"
+components/Methodology.tsx:            className="font-serif text-4xl md:text-5xl text-white mb-6"
+components/Methodology.tsx:            className="text-neutral-200 font-light leading-relaxed text-lg max-w-2xl"
+components/Methodology.tsx:              <div className="font-serif text-5xl text-[#1A1A1A] group-hover:text-[#B0A387]/20 transition-colors absolute top-6 right-6 pointer-events-none">
+components/Methodology.tsx:                <span className="text-[#B0A387] mr-3 font-serif text-xl">{step.num}.</span>
+components/Methodology.tsx:                <h3 className="text-white text-xl font-serif inline">{step.title}</h3>
+components/Methodology.tsx:              <p className="text-neutral-400 font-light leading-relaxed text-[15px] flex-grow">
+components/Departments.tsx:            className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold mb-4 block"
+components/Departments.tsx:            className="font-serif text-4xl md:text-5xl text-white mb-6 leading-tight"
+components/Departments.tsx:            className="text-neutral-200 font-light leading-relaxed text-lg max-w-2xl"
+components/Departments.tsx:              <div className="mb-6 text-[#B0A387] group-hover:scale-110 transition-transform duration-300 origin-left">
+components/Departments.tsx:              <h3 className="font-serif text-2xl text-white mb-4 group-hover:text-[#B0A387] transition-colors">{dept.name}</h3>
+components/Departments.tsx:              <p className="text-neutral-400 font-light leading-relaxed mb-8 flex-grow">
+components/Departments.tsx:                    className="text-[10px] uppercase tracking-widest px-2 py-1 bg-[#1A1A1A] border border-white/10 text-neutral-400 rounded-sm group-hover:border-[#B0A387]/30 transition-colors"
+components/CaseStudies.tsx:        <div className="text-center mb-16">
+components/CaseStudies.tsx:            className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold mb-4 block"
+components/CaseStudies.tsx:            className="font-serif text-3xl md:text-5xl text-white"
+components/CaseStudies.tsx:              <span className="text-xs uppercase tracking-widest text-[#B0A387] mb-4">{card.challenge}</span>
+components/CaseStudies.tsx:              <h3 className="font-serif text-2xl text-white mb-4 group-hover:text-[#B0A387] transition-colors">{card.title}</h3>
+components/CaseStudies.tsx:              <p className="text-neutral-200 font-light leading-relaxed flex-grow">{card.impact}</p>
+components/CaseStudies.tsx:              <p className="mt-4 text-[#B0A387] font-serif font-bold text-lg border-t border-white/10 pt-4">{card.metric}</p>
+components/Footer.tsx:        <div className="flex gap-6 text-xs uppercase tracking-widest text-neutral-300">
+components/Footer.tsx:          <a href="/environmental-policy" className="hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm px-1">
+components/Footer.tsx:          <a href="#" className="hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm px-1">
+components/Footer.tsx:          <a href="#" className="hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm px-1">
+components/Footer.tsx:          <a href="#" className="hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm px-1">
+components/Footer.tsx:        <div className="text-xs text-neutral-600 font-light">
+components/Pricing.tsx:          className="text-center mb-20"
+components/Pricing.tsx:          <h2 className="font-serif text-4xl md:text-5xl text-white mb-6">
+components/Pricing.tsx:          <p className="text-neutral-200 font-light text-lg max-w-2xl mx-auto mb-8">
+components/Pricing.tsx:                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#B0A387] text-black text-xs uppercase tracking-widest font-bold px-4 py-1">
+components/Pricing.tsx:              <h3 className="font-serif text-2xl text-white mb-2">
+components/Pricing.tsx:              <p className="text-[#B0A387] font-mono text-sm mb-8 pb-8 border-b border-white/10">
+components/Pricing.tsx:              <p className="text-neutral-400 font-light leading-relaxed flex-grow mb-10">
+components/Pricing.tsx:                  className={`text-center px-6 py-4 text-sm uppercase tracking-widest font-semibold transition-colors duration-300 ${plan.highlight ? "bg-[#B0A387] text-black hover:bg-white" : "border border-white/20 text-white hover:border-[#B0A387] hover:text-[#B0A387]"}`}
+components/Pricing.tsx:                  className="text-center px-6 py-4 text-sm uppercase tracking-widest font-semibold transition-colors duration-300 border border-transparent text-[#B0A387] hover:border-[#B0A387]/30 hover:bg-[#B0A387]/5"
+components/CTAFinal.tsx:      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+components/CTAFinal.tsx:          <span className="text-xs uppercase tracking-widest text-[#B0A387] font-semibold border border-[#B0A387]/30 rounded-sm px-3 py-1 bg-[#B0A387]/5">El siguiente paso</span>
+components/CTAFinal.tsx:          className="font-serif text-4xl md:text-5xl lg:text-5xl font-medium tracking-tight text-white mb-8 leading-tight"
+components/CTAFinal.tsx:          mercado <em className="text-[#B0A387] font-light">reconoce</em>
+components/CTAFinal.tsx:          className="text-neutral-200 mb-12 max-w-2xl mx-auto font-light leading-relaxed text-lg"
+components/CTAFinal.tsx:            className="px-8 py-4 bg-[#B0A387] text-black text-sm uppercase tracking-widest font-semibold hover:bg-white transition-colors duration-300 w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 flex items-center justify-center gap-2"
+components/CTAFinal.tsx:            className="px-8 py-4 text-white text-sm uppercase tracking-widest hover:text-[#B0A387] transition-colors duration-300 w-full sm:w-auto relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-px after:bottom-2 after:left-0 after:bg-[#B0A387] after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left"
+components/Navbar.tsx:              className="flex items-center gap-2 text-xs uppercase tracking-widest text-neutral-200 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm px-2 py-1"
+components/Navbar.tsx:                    className={`px-4 py-2 text-xs text-left hover:bg-white/5 transition-colors focus:outline-none focus:bg-white/10 ${language === lang.code ? "text-[#B0A387]" : "text-neutral-400"}`}
+components/Navbar.tsx:            className="flex items-center gap-2 text-white text-xs uppercase tracking-widest focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm p-2 hover:bg-white/5 transition-colors"
+components/Navbar.tsx:                className="text-sm uppercase tracking-widest text-neutral-300 hover:text-[#B0A387] focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm px-2 py-3 border-b border-white/5"
+components/Navbar.tsx:                className="flex items-center justify-between text-sm uppercase tracking-widest text-neutral-300 hover:text-[#B0A387] focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm px-2 py-3 w-full text-left"
+components/Navbar.tsx:                      className="text-xs uppercase tracking-widest text-neutral-400 hover:text-[#B0A387] focus:outline-none px-2 py-3 border-b border-white/5 last:border-none"
+components/Navbar.tsx:                className="text-sm uppercase tracking-widest text-neutral-300 hover:text-[#B0A387] focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm px-2 py-3 border-b border-white/5 last:border-none"
+components/Navbar.tsx:            className="mt-4 text-center px-5 py-4 bg-[#B0A387] text-black text-xs uppercase tracking-widest font-bold focus:outline-none focus:ring-2 focus:ring-white rounded-sm shadow-[0_0_15px_rgba(176,163,135,0.3)] hover:scale-105 transition-all duration-300"
+components/Breadcrumbs.tsx:      <ol className="flex items-center space-x-2 text-xs uppercase tracking-widest text-neutral-300">
+components/Breadcrumbs.tsx:            className="hover:text-[#B0A387] transition-colors flex items-center gap-1 focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm px-1"
+components/Breadcrumbs.tsx:              <ChevronRight size={14} className="text-neutral-700" />
+components/Breadcrumbs.tsx:                <span className="text-neutral-300" aria-current="page">
+components/Breadcrumbs.tsx:                  className="hover:text-[#B0A387] transition-colors focus:outline-none focus:ring-2 focus:ring-[#B0A387] rounded-sm px-1"
+components/EnvironmentalPolicy.tsx:          className="text-center mb-16"
+components/EnvironmentalPolicy.tsx:          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-white mb-6">
+components/EnvironmentalPolicy.tsx:          <p className="text-[#B0A387] text-lg font-medium tracking-wide mb-8">
+components/EnvironmentalPolicy.tsx:          <p className="text-neutral-300 font-light leading-relaxed text-lg mb-12 text-center">
+components/EnvironmentalPolicy.tsx:              <Leaf className="w-8 h-8 text-[#B0A387] mb-6" />
+components/EnvironmentalPolicy.tsx:              <h3 className="text-white font-serif text-xl mb-4">
+components/EnvironmentalPolicy.tsx:              <p className="text-neutral-200 font-light text-sm leading-relaxed">
+components/EnvironmentalPolicy.tsx:              <Droplets className="w-8 h-8 text-[#B0A387] mb-6" />
+components/EnvironmentalPolicy.tsx:              <h3 className="text-white font-serif text-xl mb-4">
+components/EnvironmentalPolicy.tsx:              <p className="text-neutral-400 font-light text-sm leading-relaxed">
+components/EnvironmentalPolicy.tsx:              <Recycle className="w-8 h-8 text-[#B0A387] mb-6" />
+components/EnvironmentalPolicy.tsx:              <h3 className="text-white font-serif text-xl mb-4">
+components/EnvironmentalPolicy.tsx:              <p className="text-neutral-400 font-light text-sm leading-relaxed">
+components/EnvironmentalPolicy.tsx:              <Wind className="w-8 h-8 text-[#B0A387] mb-6" />
+components/EnvironmentalPolicy.tsx:              <h3 className="text-white font-serif text-xl mb-4">
+components/EnvironmentalPolicy.tsx:              <p className="text-neutral-400 font-light text-sm leading-relaxed">
